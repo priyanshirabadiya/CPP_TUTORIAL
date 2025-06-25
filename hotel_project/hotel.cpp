@@ -19,8 +19,8 @@ class Hotel1
         cout<<"enter your mobile number : ";
         cin>>m;
   
-        cout<<"1. dosa              200"<<endl;
-        cout<<"2. chese dosa        500"<<endl;
+        cout<<"1. dosa               200"<<endl;
+        cout<<"2. chese dosa         500"<<endl;
         cout<<"3. puf                200"<<endl;
         cout<<"4. burger             300"<<endl;
         cout<<"5. pizza              500"<<endl;
@@ -46,7 +46,7 @@ class Hotel2 : public Hotel1
                 cin>>quntity1;
                 Cost1=dosa*quntity1;
              cout<<"iteam"<<"\t""\t";cout<<"quntity"<<"\t""\t"; cout<<"cost""\t""\t"<<endl; 
-              cout<<"dosa"<<"\t"; cout<<quntity1<<"\t""\t"; cout<<Cost1<<endl;
+              cout<<"dosa"<<"\t""\t"; cout<<quntity1<<"\t""\t"; cout<<Cost1<<endl;
             }
             break;
             case 2:
